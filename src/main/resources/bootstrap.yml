@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: wxact
+  profiles: 
+    active: dev
+
+logging:
+  config: classpath:logback.xml
+  level: 
+   root: info
