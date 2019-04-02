@@ -7,6 +7,9 @@ spring:
     name: wxact1
   profiles: 
     active: dev
+    
+#mybatis:
+#   mapperLocations: classpath:mybatis/mappings/com/ccb/wxact/modules/usermanage/mapping/*.xml
 
 logging:
   config: classpath:logback.xml
